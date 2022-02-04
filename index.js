@@ -26,8 +26,3 @@ function destructivelyDeleteFromEmployeeByKey(employee, name){
     delete employee.name;
     return employee;
 }
-
-console.log(updateEmployeeWithKeyAndValue(employee, streetaddress, `32 W 185th st`));
-console.log(destructivelyUpdateEmployeeWithKeyAndValue(employee, streetaddress, `64 Doober ln`));
-console.log(deleteFromEmployeeByKey(employee, `name`));
-console.log(destructivelyDeleteFromEmployeeByKey(employee, `name`));
